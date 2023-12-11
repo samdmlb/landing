@@ -1,0 +1,21 @@
+.footer {
+  background-color: #2C2B2B;
+  text-align: center;
+  height: 200px;
+}
+
+.footer-list {
+  color: #1EDD88;
+  list-style-type: none;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.footer-list li {
+  display: inline;
+  padding: 5px;
+}
+
+.fa-heart {
+  color: #BF0F12;
+}

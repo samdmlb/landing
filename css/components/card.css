@@ -1,0 +1,36 @@
+.card-container {
+  margin: auto;
+  width: 900px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+.card img {
+  width: 150px;
+}
+
+@media (max-width: 900px) {
+.card-container {
+    width: 500px;
+}
+}
+
+
+@media (max-width: 500px) {
+.card-container {
+    width: 300px;
+}
+}
